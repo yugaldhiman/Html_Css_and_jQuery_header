@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="Jquery.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Header</title>
+  </head>
+  <body>
+    <div class="head">
+      <div class="liftBox">
+        <h1>Logo</h1>
+        <div class="fiveBox"></div>
+        <div class="fiveBox"></div>
+        <div class="fiveBox"></div>
+        <div class="fiveBox"></div>
+      </div>
+    </div>
+    <div class="rightBox2">
+      <button id="btn">Bottam</button>
+      <div class="fiveBox2"></div>
+      <div class="fiveBox2"></div>
+      <div class="fiveBox2"></div>
+      <div class="fiveBox2"></div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $("#btn").click(function () {
+          $(".fiveBox2").toggle("very fast");
+        });
+      });
+    </script>
+  </body>
+</html>

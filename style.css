@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.liftBox {
+    width: 100%;
+    height: 10vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.rightBox {
+    width: 50%;
+    height: 10vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+.rightBox2{
+    display: none;
+    align-items: center;
+}
+.fiveBox {
+    width: 15%;
+    height: 3vh;
+    border: 3px solid black;
+    background-color: gray;
+    border-radius: 10px;
+}
+.fiveBox2 {
+    width: 100%;
+    height: 3vh;
+    margin-top: 1%;
+    border: 3px solid black;
+    background-color: gray;
+    border-radius: 10px;
+    display: none;
+}
+
+button {
+    width: 15%;
+    height: 4vh;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 20px;
+    border: 5px solid black;
+}
+@media (max-width:1080px) {
+    .fiveBox{
+        display: none;
+    }
+    .rightBox2{
+        display: block;
+        width: 100%;
+        margin-top: 1%;
+    }
+}
